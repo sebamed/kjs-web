@@ -26,7 +26,7 @@ export default class Main extends Vue {
     constructor() {
         super();
 
-        store.dispatch('fetchStats', 83);
+        store.dispatch('fetchStats', 194);
         store.dispatch('fetchTips');
         store.dispatch('fetchNews');
     }
